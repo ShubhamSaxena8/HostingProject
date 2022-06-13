@@ -11,3 +11,26 @@ After the initial setup, you will learn to interact with the services you starte
 You will then register for a free account on CircleCi and connect your Github account to it. Based on the manual steps used to deploy the app, you will write a config.yml file that will make the process reproducible in CircleCi. You will set up the process to be executed automatically based when code is pushed on the main Github branch.
 
 The project will also include writing documentation and runbooks covering the operations of the deployment process. Those runbooks will serve as a way to communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
+
+### Access Website
+
+* Use this link: [http://final-hosting-bucket-101.s3-website-us-east-1.amazonaws.com](http://final-hosting-bucket-101.s3-website-us-east-1.amazonaws.com/) to access the website.
+
+### Hosting
+
+* This website is being hosted on AWS.
+* Elastic Beanstalk is used for the Backend API.
+* S3 bucket for the frontend.
+* RDS database running Postgres.
+
+
+![infrastructure diagram](./Screenshots/Infrastructure%20Diagram.png)
+
+### CI/CD pipeline
+* The CircleCI is linked to the project on Github.
+* It is used to automatically deploy the website to the AWS.
+* It is set to automatically execute once the code is being pushed into the connected Github Repo.
+
+![pipeline chart](./Screenshots/Circle%20CI%20Pipeline%20Diagram.png)
+
+

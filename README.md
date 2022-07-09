@@ -26,6 +26,8 @@ The project will also include writing documentation and runbooks covering the op
 
 ![infrastructure diagram](./Screenshots/Infrastructure%20Diagram.png)
 
+```
+
 ### CI/CD pipeline
 * The CircleCI is linked to the project on Github.
 * It is used to automatically deploy the website to the AWS.
